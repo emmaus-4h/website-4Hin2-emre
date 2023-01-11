@@ -19,6 +19,14 @@ body * {                          /* geldt voor alles in body */
   margin: 0px;                    /* standaard marge 0 */
 }
 
+body {
+  border:solid 10px red;
+  min-height:100%;
+}
+html {
+  border:solid 5px green;
+  height:100%;
+}
 /* Indeling voor alle pagina's */
 
 .page {
@@ -45,7 +53,11 @@ p {
   padding:10px;
   
 }
-
+.page_1_kopje_2 {
+  margin: 10px 0px  ;    
+  background-color: rgba(0,0,0,0.5);
+  padding:10px;
+}
 /* Indeling voor hoofd pagina */
 
 .kolomLinks {
@@ -74,7 +86,7 @@ h1, h2, h3 {
   
 }
 .tweede {
-  background-image: url("afbeeldingen/klassiek-ferrari.jpg");
+  background-image: url("afbeeldingen/klassiek ferrari.jpg");
   background-position: center;
   border: solid 2px blue
 }
@@ -84,7 +96,10 @@ h1, h2, h3 {
   background-size: cover;
   border: solid 2px blue;
 }
-
+.Derde-foto-1 {
+  height: 200px;
+  padding-top: 10px;
+}
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -123,7 +138,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #fff700;
+    background-color: #e8ca02;
 }
 
 nav li a.active {
