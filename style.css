@@ -30,7 +30,7 @@ html {
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 800px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -78,6 +78,13 @@ p {
 h1, h2, h3 {
       color: red;
 }
+
+h1 {
+  color: black;
+  
+}
+
+
 .eerste {
   background-image: url("afbeeldingen/ferrari-achtergrond.jpg");
   background-position: center;
@@ -97,9 +104,27 @@ h1, h2, h3 {
   border: solid 2px blue;
 }
 .Derde-foto-1 {
-  height: 200px;
+  height: 250px;
   padding-top: 10px;
+  float:left;
 }
+.tekstfoto1 {
+  
+}
+
+
+
+
+
+.Derde-foto-2 {
+  height: 243px;
+  padding-top: 10px;
+  float: right ;
+}
+
+
+
+
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -117,6 +142,11 @@ a:hover {
 
 
 /* Navigatiebalk voor alle pagina's */
+nav {
+  width: 700px;
+  margin: auto;
+}
+
 nav ul {
     list-style-type: none;
     margin: auto;
