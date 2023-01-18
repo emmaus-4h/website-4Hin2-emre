@@ -5,6 +5,12 @@
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
+div {
+  border: 1px solid red;
+}
+p {
+  border: solid 1px green;
+}
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 html, body {                      /* geldt voor html en body */
@@ -80,7 +86,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: black;
+  color: #e8ca02;
   
 }
 
@@ -109,12 +115,16 @@ h1 {
   float:left;
 }
 .tekstfoto1 {
-  
+
 }
 
-
-
-
+model-foto {
+  height: 243px;
+  padding-top: 10px;
+}
+model-foto-links {
+    float:left;
+}
 
 .Derde-foto-2 {
   height: 243px;
@@ -122,9 +132,17 @@ h1 {
   float: right ;
 }
 
+.Derde-foto-3 {
+  height: 250px;
+  padding-top: 10px;
+  float:left;
+}
 
-
-
+.Derde-foto-4 {
+  height: 250px;
+  padding-top: 10px;
+  float:bottom-right;
+}
 .smalltext {
     text-align: center;
     font-size: 0.7em;
