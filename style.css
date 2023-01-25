@@ -114,20 +114,21 @@ h1 {
   padding-top: 10px;
   float:left;
 }
-.tekstfoto1 {
+.modelfotos-links {
+  margin-left: 10px;
 
 }
 
 model-foto {
-  height: 243px;
+  height: 203px;
   padding-top: 10px;
 }
-model-foto-links {
-    float:left;
+modelfotos-links {
+    float:right;
 }
 
 .Derde-foto-2 {
-  height: 243px;
+  height: 258px;
   padding-top: 10px;
   float: right ;
 }
@@ -141,12 +142,41 @@ model-foto-links {
 .Derde-foto-4 {
   height: 250px;
   padding-top: 10px;
-  float:bottom-right;
+  float:right;
 }
 .smalltext {
     text-align: center;
     font-size: 0.7em;
   color: white;
+}
+.Derde-foto-1-2 {
+  height: 250px;
+  float: center;
+  padding-left: 220px;
+}
+
+.Derde-foto-2-2 {
+  height: 244px;
+  float: center;
+  padding-left: 220px;
+}
+
+.Derde-foto-3-2 {
+  height: 244px;
+  float: center;
+  padding-left: 220px;
+}
+
+.Derde-foto-4-2 {
+height: 265px;
+  float: center;
+  padding-left: 220px;
+}
+
+.klassiek{
+  height: 274px;
+  float: center;
+  padding-left: 220px;
 }
 
 a {
