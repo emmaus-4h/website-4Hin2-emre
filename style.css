@@ -5,12 +5,7 @@
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
-div {
-  border: 1px solid red;
-}
-p {
-  border: solid 1px green;
-}
+
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 html, body {                      /* geldt voor html en body */
@@ -25,14 +20,7 @@ body * {                          /* geldt voor alles in body */
   margin: 0px;                    /* standaard marge 0 */
 }
 
-body {
-  border:solid 10px red;
-  min-height:100%;
-}
-html {
-  border:solid 5px green;
-  height:100%;
-}
+
 /* Indeling voor alle pagina's */
 
 .page {
@@ -81,34 +69,44 @@ p {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
+h2, h3 {
       color: red;
 }
 
-h1 {
-  color: #e8ca02;
-  
+.belangrijk2 {
+  color:k#f5d400;
 }
 
+.modellenh1 {
+  color: #f5d400;
+}
+
+.belangrijk {
+  color: red;
+}
 
 .eerste {
   background-image: url("afbeeldingen/Ferrari-Logo-3.jpeg");
   background-position: left;
   background-repeat: repeat;
-  border: solid 2px blue
-  
 }
+
 .tweede {
-  background-image: url("afbeeldingen/klassiek ferrari.jpg");
+  background-image: url("afbeeldingen/ferrari-logo\ 2.jpeg");
   background-position: center;
-  border: solid 2px blue
 }
+
 .derde {
   background-image: url("afbeeldingen/DSC08187.jpg");
   background-position: center;
   background-size: cover;
-  border: solid 2px blue;
 }
+
+.vierde {
+  background-image: url("afbeeldingen/Ferrari\ Logo\ Background\ 2.jpg");
+  background-position: center;
+}
+
 .Derde-foto-1 {
   height: 260px;
   padding-top: 30px;
@@ -138,37 +136,68 @@ h1 {
 }
 .smalltext {
     text-align: center;
-    font-size: 0.7em;
+    font-size: 0.9em;
   color: white;
 }
 .Derde-foto-1-2 {
-  height: 250px;
+  height: 251px;
   float: center;
   padding-left: 220px;
 }
 
 .Derde-foto-2-2 {
-  height: 244px;
+  height: 245px;
   float: center;
   padding-left: 220px;
 }
 
 .Derde-foto-3-2 {
-  height: 244px;
+  height: 245px;
   float: center;
   padding-left: 220px;
 }
 
 .Derde-foto-4-2 {
-height: 265px;
+height: 266px;
   float: center;
   padding-left: 220px;
 }
 
-.klassiek{
-  height: 274px;
+.SF90EIND {
+  height: 245px;
   float: center;
   padding-left: 220px;
+}
+
+.Klassiek-2 {
+height: 250px;
+float: right;
+}
+
+.Klassiek-3 {
+  float: center;
+  padding-left: 163px;
+}
+
+.p-klassiek {
+margin-top: 40px;
+  margin-right: 10px;
+}
+
+.klassiek{
+  height: 276px;
+  float: center;
+  padding-left: 220px;
+}
+
+.sf90foto {
+  height: 500px;
+float: center;
+  margin-left: 25px;
+}
+
+.sf90laatste {
+  padding-left: 160px;
 }
 
 a {
@@ -208,7 +237,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #e8ca02;
+    background-color: #ffdd00;
 }
 
 nav li a.active {
